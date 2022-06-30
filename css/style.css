@@ -1,0 +1,134 @@
+:root {
+	--darkcyan: hsl(158, 36%, 37%);
+	--verydarkcyan: hsl(158, 36%, 22%);
+	--cream: hsl(30, 38%, 92%);
+	--verydarkblue: hsl(212, 21%, 14%);
+	--darkgrayishblue: hsl(228, 12%, 48%);
+	--white: hsl(0, 0%, 100%);
+	--montserrat: 'Montserrat', sans-serif;
+	--fraun: 'fraunces', serif;
+}
+
+p{
+    font-size: 14px;
+}
+
+*{
+    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	align-items: center;
+	background-color: var(--cream);
+	display: inline-block;
+    margin-left: 35%;
+    margin-top: 13%;
+	justify-content: center;
+}
+
+h1{
+	color: var(--verydarkblue);
+	font-family: var(--fraun);
+	padding: 15px 0;
+}
+
+button{
+	background-color: var(--darkcyan);
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	color: var(--white);
+	font-family: var(--montserrat);
+	font-size: 16px;
+	padding: 15px 0;
+}
+
+button:hover{
+	background-color: var(--verydarkcyan);
+}
+
+a{
+    border-radius: 3px;
+    color:hsl(32, 42%, 41%);
+    font-weight:bold;
+    opacity: 0.8;
+    text-decoration:none;
+}
+  
+a:hover {
+    transition: color .9s;
+    color:hsl(32, 45%, 54%);
+}
+
+.main{
+	background-color: var(--white);
+	border-radius: 20px;
+    max-height: 480px;
+	max-width: 300px;
+}
+
+.imagecontainer img{
+	border-radius: 20px 20px 0 0;
+	height: 480px;
+	width: 320px;
+}
+
+.textcontainer{
+	display: flex;
+	flex-direction: column;
+	max-width: 320px;
+	padding: 30px;
+}
+
+.perfume {
+	color: var(--darkgrayishblue);
+	font-family: var(--montserrat);
+	letter-spacing: 5px;
+}
+
+.text {
+	color: var(--darkgrayishblue);
+	font-family: var(--montserrat);
+	font-size: 16px;
+	padding: 15px 0;
+}
+
+.prices{
+	align-items: center;
+	display: flex;
+	gap: 10px;
+	padding: 15px 0;
+}
+
+.original{
+	color: var(--darkgrayishblue);
+	font-family: var(--montserrat);
+	text-decoration: line-through;
+}
+
+.offer{
+	color: var(--darkcyan);
+	font-size: 40px;
+	font-family: var(--fraun);
+}
+
+.attribution{
+    color:hsl(32, 42%, 41%);
+    justify-content: center;
+    margin: relative;
+    margin-left: 125px;
+    margin-top: 10px;
+    opacity: 0.8;
+}
+
+@media (min-width: 768px){
+	.main {
+		display: flex;
+		max-width: 100%;
+	}
+	.imagecontainer img {
+		border-radius: 20px 0 0 20px;
+	}
+}
