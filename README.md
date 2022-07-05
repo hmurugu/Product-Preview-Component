@@ -23,7 +23,7 @@
 <br>
 <br>
 
-<a href="images/screenshot.png">
+![preview screenshot](images/screenshot.png)
 
 ## Table of contents
 
