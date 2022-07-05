@@ -45,5 +45,5 @@ Users should be able to:
 <hr>
 
 <div>
-<p align = "left"> hmurugu 2022 </p>
+<p align = "right"> hmurugu 2022 </p>
 </div>
